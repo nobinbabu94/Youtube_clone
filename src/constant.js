@@ -1,0 +1,7 @@
+export const YOUTUBE_LOGO ='https://freelogopng.com/images/all_img/1656501255youtube-logo-png.png'
+export const MENU = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png'
+export const ACCOUNT_LOGO ='https://img.uxwing.com/wp-content/themes/uxwing/download/peoples-avatars-thoughts/account-icon.png'
+export const YT_SEARCH_ICON = 'https://cdn.onlinewebfonts.com/svg/img_151815.png'
+export const YT_VIDEOS_API = 'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key='
+export const YT_SUGGEST_API = 'http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q='
+export const YT_VIDEO_SEARCH_RESULTS = 'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&type=video&key='+process.env.YOUTUBE_API_KEY+'&q='
